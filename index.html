@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB - Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section>
+        <div>
+          <div class="rangeContainer">
+            <input
+              id="range1"
+              class="verticalRange"
+              type="range"
+              min="1"
+              max="255"
+              value="127.5"
+            />
+            <span id="rangeValue1">Value 1</span>
+          </div>
+          <div class="rangeContainer">
+            <input
+              id="range2"
+              class="verticalRange"
+              type="range"
+              min="1"
+              max="255"
+              value="127.5"
+            />
+            <span id="rangeValue2">Value 2</span>
+          </div>
+          <div class="rangeContainer">
+            <input
+              id="range3"
+              class="verticalRange"
+              type="range"
+              min="1"
+              max="255"
+              value="127.5"
+            />
+            <span id="rangeValue3">Value 3</span>
+          </div>
+        </div>
+        <div>
+            <h2 id="rgbValue"></h2>
+            <button id="copyRgbValue">Copy</button>
+        </div>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
